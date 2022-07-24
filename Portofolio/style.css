@@ -1,0 +1,36 @@
+body {
+    background-color: cornsilk;
+}
+
+.container {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    font-size: 1 rem;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+nav a:hover{
+    text-decoration: underline;    
+}
+
+.button {
+    border: 1px solid rebeccapurple;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
